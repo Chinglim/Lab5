@@ -13,3 +13,35 @@ At address 06, 'B' (hexadecimal) is seen, it is the opcode to jump to the operan
 Apparently, this program will output values that is going up sequentially, out of port 3, as long as the post addition value is within '8'-'F' hexadecimal value. This is because for this range of number, their sign bit is '1', which meant that they are negative number , so the jump function to carry out the plus 1 will be carried out.
 
 This process will just end when the accumulator value reads 0 as the sign bit of the hexdecimal number.
+
+## 1st Program Instruction Cycle 
+The defination of those cycles are labelled clearly in the diagrams attached " 0-90 ns waveform" and "90-170 ns waveform".
+
+#Answers to PRISM QUESTIONS
+
+1) When the controller's current state is "FETCH." what is the status of the following control lines:
+
+a) PCLd--High
+b) IRLd--High
+c)ACCLd--Low
+
+2)Current state is Decode LoAddr and the IR contains "OUT". What are the control signals that are asserted, and what will the next state be? 
+
+Control signals: MEMSEL ,READ, MARLoLd 
+
+Next state: Direct IO Execute
+
+3)What are the thre status signals sent from the PRISM datapath to the PRISM controller?
+
+-JMP
+-JN
+-JZ
+
+4)Why is it important that ACCLd signal be active during the execute state for the ADDI instruction?
+
+It is important so that the new sum value can then be able to overwrite whatever present value that the accumulator has.
+
+5)What changes are necessary to the PRISM datapath to add another instruction (SUBI, which would subtract and immediate value from the accumulator) to the instruction set. 
+
+-One can do the 2's complement of the immediate value and then input it into the add function instead.
+-A mux can then be used to choose that 2's complement value once a certain signal is of active high. Therefore, allowing us to still be able to use the ADDI instructions
