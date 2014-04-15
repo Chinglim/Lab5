@@ -27,11 +27,11 @@ c)ACCLd--Low
 
 2)Current state is Decode LoAddr and the IR contains "OUT". What are the control signals that are asserted, and what will the next state be? 
 
-Control signals: MEMSEL ,READ, MARLoLd 
+Control signals: AddrSel, Enaccbuffer and Opsel='111'
 
 Next state: Direct IO Execute
 
-3)What are the thre status signals sent from the PRISM datapath to the PRISM controller?
+3)What are the the status signals sent from the PRISM datapath to the PRISM controller?
 
 -JMP
 -JN
