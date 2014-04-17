@@ -48,4 +48,4 @@ It is important so that the new sum value can then be able to overwrite whatever
 
 ##1st Program Simulation
 
-Program simulated and verified correct by Cpt Sliva.
+Program simulated and verified correct by Cpt Sliva, on 17 April 2014.
