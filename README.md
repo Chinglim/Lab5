@@ -17,7 +17,7 @@ This process will just end when the accumulator value reads 0 as the sign bit of
 ## 1st Program Instruction Cycle 
 The defination of those cycles are labelled clearly in the diagrams attached " 0-90 ns waveform" and "90-170 ns waveform".
 
-#Answers to PRISM QUESTIONS
+##Answers to PRISM QUESTIONS
 
 1) When the controller's current state is "FETCH." what is the status of the following control lines:
 
@@ -45,3 +45,7 @@ It is important so that the new sum value can then be able to overwrite whatever
 
 -One can do the 2's complement of the immediate value and then input it into the add function instead.
 -A mux can then be used to choose that 2's complement value once a certain signal is of active high. Therefore, allowing us to still be able to use the ADDI instructions
+
+##1st Program Simulation
+
+Program simulated and verified correct by Cpt Sliva.
