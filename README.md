@@ -52,3 +52,6 @@ Program simulated and verified correct by Cpt Sliva, on 17 April 2014.
 
 ## 2nd Program Simulation
 Program simulated and verified correct by Dr Nibble, on 18 April 2014.
+
+Upload the edited ROM file, to show rhe edited codes and upload the prism codes on next friday!!!
+
