@@ -53,5 +53,12 @@ Program simulated and verified correct by Cpt Sliva, on 17 April 2014.
 ## 2nd Program Simulation
 Program simulated and verified correct by Dr Nibble, on 18 April 2014.
 
+My first simulation failed in a way the countdown was successful but for the countup operation it only count 10, 11, 12 then 20, 21 ,22, then 30 and so on.... after troubleshooting my jumpup codes, I found out a serious error. I placed 2 jmp codes one after another for instruction 1C and 1F, this results in the operation to only run to the jmp for only value  that is 8 and above , while leaving out those 7 and below. 
+
+After experimenting and some discussion with Dr Nibble, the error 'jmp' on instruction 1C was changed into 'JN' as for number 8 and above, since their sign bit will then be one, it will be neg. So it is only right to put 'JN' instead if one want operation to continue with the later codes for 7 and below if value is 7 and below and not jump to the jump9 instructions for value 8 and above.
+
+Only on the second time that i demostrated to Dr Nibble, then the 2nd program counter operation was a success.
+
+
 Upload the edited ROM file, to show rhe edited codes and upload the prism codes on next friday!!!
 
