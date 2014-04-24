@@ -1,5 +1,20 @@
 Lab5
 ====
+#Content
+
+1st program Operation
+
+1st program Instruction Cycle
+
+Answer to PRISM program
+
+Documenting of 1st program Simulation
+
+
+2nd program Flowchart uploaded.
+
+Documenting of 2nd program Simulation
+
 ##1st Program Operation
 
 7(Hexadecimal) is the op code for LDAI, it will load the value of the operand into the accumulator. In the next address, 8(hexadecimal) is seen, that will be the operand value, to be loaded into the accumulator. 
