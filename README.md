@@ -57,10 +57,10 @@ My first simulation failed in a way the countdown was successful but for the cou
 
 After experimenting and some discussion with Dr Nibble, the error 'jmp' on instruction 1C was changed into 'JN' as for number 8 and above, since their sign bit will then be one, it will be neg. So it is only right to put 'JN' instead if one want operation to continue with the later codes for 7 and below if value is 7 and below and not jump to the jump9 instructions for value 8 and above.
 
-Only on the second time that i demostrated to Dr Nibble, then the 2nd program counter operation was a success. 
+Only on the second time,  on the ISim and FPGA, that i demostrated to Dr Nibble, then the 2nd program counter operation was a success. 
 
 The countup and countdown flowchart shall also been uploaded.
 
 
-Upload the edited ROM file, to show rhe edited codes and upload the prism codes on next friday!!!
+
 
